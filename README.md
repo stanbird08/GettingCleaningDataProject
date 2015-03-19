@@ -27,13 +27,21 @@ This repo includes the following files:
 
 ============================================
 More details about the script, run_analysis.R
+
 The script does the following steps,
+
 1. read features.txt and activity_labels.txt for preparing the data columns names and activity descriptive names
+
 2. read train data and format the data set with meaningful column names and add two more column with subject and activity information
+
 3. read test data and format the data set with meaningful column names and add two more column with subject and activity information
+
 4. merge above two data sets together
+
 5. extract only the columns of the measurements on the mean and standard deviation for each measurement
+
 6. generate a new data set (tidy data) by aggregate the mean of each measurement columns grouped by subject and activity
+
 7. export the tidy data as a txt file
  
 
