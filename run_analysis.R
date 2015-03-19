@@ -90,7 +90,7 @@ dataAll_df = rbind(train_df, test_df)
 
 # generate a vector contains only column names with mean.. and std.
 # because when the mean() became a column name, it was renamed as mean..
-columnNames_MeanStd_vec <- names(allData_df)
+columnNames_MeanStd_vec <- names(dataAll_df)
 columnNames_MeanStd_vec <- columnNames_MeanStd_vec[grepl("mean\\.\\.|std\\.\\.", columnNames_MeanStd_vec)]
 
 # generate a data frame only contains mean and standard deviation measurement
