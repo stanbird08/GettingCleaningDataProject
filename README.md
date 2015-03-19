@@ -19,8 +19,10 @@ The project will follow the following instructions to manuplate the data.
     
 This repo includes the following files:
 
--- README.md, this is the file you are reading
+-- README.md, this is the file you are reading.
+
 -- CodeBook.md, a technical description of the data set. It describes how the data are arranged in files, what the various numbers and letters mean.
+
 -- run_analysis.R, a R script to get and clean the data into a tiny clean data set and export it as a txt file, named dataFinal.txt. To use this script, you have to have the raw data in your R working directory and in a folder called UCI HAR Dataset which is unzipped from the zip file downloaded from the project website. Please keep the original folder structure, otherwise the script won't work.
 
 ============================================
