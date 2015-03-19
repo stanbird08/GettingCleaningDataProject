@@ -40,7 +40,7 @@ The script does the following steps,
 
 5. extract only the columns of the measurements on the mean and standard deviation for each measurement
 
-6. generate a new data set (tidy data) by aggregate the mean of each measurement columns grouped by subject and activity
+6. generate a new data set (tidy data) by aggregate the average of each measurement columns grouped by subject and activity
 
 7. export the tidy data as a txt file
  
